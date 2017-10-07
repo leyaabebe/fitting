@@ -1,0 +1,415 @@
+/*
+
+
+			All Pages
+
+
+
+
+*/
+
+
+body {
+	background-color:#ffffff;
+	margin-top:50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding:0;
+    margin:0;
+}
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+/* https://codepen.io/ibrahimjabbari/pen/ozinB */
+
+
+hr.style12 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+/* https://codepen.io/ibrahimjabbari/pen/ozinB */
+
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+/* https://codepen.io/ibrahimjabbari/pen/ozinB */
+
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+/* https://codepen.io/ibrahimjabbari/pen/ozinB */
+
+a, a:hover, a:active, a:visited {
+	text-decoration:none;
+	color:#BF8C12;
+}
+
+/*a, a:link{
+	text-decoration:none;
+	color:#222222;
+}*/
+
+#white {
+	color:#ffffff;
+}
+
+button,
+button:active,
+button:focus, 
+button:hover,
+.btn,
+.btn:active, 
+.btn:focus, 
+.btn:hover{   
+    outline:none !important;
+}
+
+.active {
+/*	background-color:#BF8C12;*/
+	color:#BF8C12;
+	font-size:1.2em;
+}
+
+/*
+
+
+			Landing Page
+
+
+
+
+*/
+
+
+#cover {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#headline {
+	font-size:72px;
+	color:#ffffff;
+}
+
+#subheader {
+	font-size:18px;
+	color:#ffffff;
+}
+
+.button-user {
+	height:65px;
+	width:250px;
+	background-color:#ffffff;
+	color:#BF8C12;
+	border:none;
+	border-radius:5px;
+	padding:18px;
+	display:inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	font-size:18px;
+}
+
+.button-register {
+	height:65px;
+	width:250px;
+	background-color:#BF8C12;
+	color:#ffffff;
+	border:none;
+	border-radius:5px;
+	padding:18px;
+	display:inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	font-size:18px;
+}
+
+.button-browse {
+	height:65px;
+	width:250px;
+	background-color:#A4969B;
+	color:#ffffff;
+	border:none;
+	border-radius:5px;
+	padding:18px;
+	display:inline-block;
+	margin-top:15px;
+	margin-left:15px;
+	margin-right:10px;
+	margin-bottom:0;
+	font-size:18px;
+}
+
+
+
+/*
+
+
+			Home Page
+
+
+
+
+*/
+
+
+nav {
+	background-color:#222222;
+	color:#ffffff;
+	height:20px;
+	padding:0;
+}
+
+header {
+	background-color:#ffffff;
+	color:#222222;
+	padding:2px;
+	border-bottom: #dddddd solid 2px;
+}
+
+.container-modified {
+	margin:0;
+	padding:0;
+}
+
+ul {
+	padding-top:12px;
+	padding-right:8px;
+}
+
+section {
+	background-color:#eeeeee;
+	color:#222222;
+	padding:2px;
+}
+
+section a {
+	color:#222222;
+}
+
+
+button {
+	height:50px;
+	width:200px;
+	background-color:#C4CAD0;
+	color:#222222;
+	border:#f8f8f8 solid 2px;
+	border-radius:25px;
+	padding:5px;
+}
+
+
+#btnShop {
+	background-color:#BF8C12;
+	padding-top:2px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	position: absolute;
+	left: 150px;
+	top: 225px;
+	height:100px;
+	width:100px;
+	z-index: 1;
+	border-radius:50px;
+	border: #E5A816 solid 3px;
+}
+
+#btnSale {
+	background-color:#FF3727;
+	padding-top:2px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	position: absolute;
+	left: 200px;
+	top: 300px;
+	height:70px;
+	width:70px;
+	z-index: 1;
+	border-radius:35px;
+	border: #E53123 solid 3px;
+}
+
+#featured {
+	height:300px;
+	color:#ffffff;
+	padding:20px;
+	margin-bottom:10px;
+	margin-right:2px;
+}
+
+#f1, #f2, #f3 {
+	height:50px;
+	width:200px;
+	position:absolute;
+	left:180px;
+	top:180px;
+	z-index:1;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:25px;
+	border: #E5A816 solid 3px;
+	background-color:#BF8C12;
+	color:#ffffff;
+}
+
+
+footer {
+	background-color:#999999;
+	color:#222222;
+	margin-bottom:0;
+	padding-top:10px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:2px;
+	font-size:.8em;
+}
+
+
+/*
+
+
+			Shop Page
+
+
+
+
+*/
+
+.sbtxt a {
+	color:#222222;
+}
+
+.sbtxt a:hover, .sbtxt a:visited {
+	color:#BF8C12;
+}
+
+#deck {
+	margin-bottom:20px;
+}
+
+.card {
+	height:445px; 
+	width:350px; 
+	color:#222222;
+	padding:40px;
+	background-color:#eeeeee;
+}
+
+.card2 {
+	height:445px; 
+	width:350px; 
+	color:#222222;
+	padding:40px;
+	background-color:#BF8C12;
+}
+
+#imgbg {
+	background-color:#8FB299;
+}
+
+#c1, #c2, #c3, #c4, #c5 {
+	height:20px;
+	width:20px;
+}
+
+#c1 {
+	background-color:#000000;
+}
+
+#c2 {
+	background-color:#65FF5F;
+}
+
+#c3 {
+	background-color:#BC7CFF;
+}
+
+#c4 {
+	background-color:#CCC13B;
+}
+
+#c5 {
+	background-color:#0D77B2;
+}
+
+
+/*
+
+
+		(Specific) Product-Page
+
+
+
+
+*/
+
+.product-details {
+	padding:10px;
+	color:#222222;
+}
+
+/*
+
+
+			Checkout Page
+
+
+
+
+*/
+
+.flow {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#item1, #item2, #item3, #item4 {
+    margin:30px;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding:20px;
+}
+
+
+#yourCart {
+    margin:0;
+    padding:0;
+}
+
+#details{
+    margin:40px;
+    padding:40px;
+    box-shadow:2px 2px #cccccc;
+}
+
+#finePrint {
+    font-size:.6em;
+}
+
+.finePrint {
+    font-size:.6em;
+}
+
+input {
+	margin:5px;
+}

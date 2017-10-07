@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>take a look</title>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="js/functions.js"></script>
+
+	<!-- Animations -->
+<!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+			<ul class="list-unstyled list-inline pull-right">
+				<li><a href="#" id="logOut">my account</a></li>
+				<li><a href="index.html">home</a></li>
+				<li><a href="shop.html">shop</a></li>
+				<li><a href="checkout.html">cart <span id="cartNo"></span>  </a></li>
+				<li><h4>/fitting</h4></li>
+			</ul>
+	</nav>
+	<div class="modal" id="logOut" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h2 class="modal-title text-center"><h1>Hello, Deepa!</h1></h2>
+	      </div>
+	      <div class="modal-body">
+	        <p>Would you like to log out?</p>
+	      </div>
+	      <div class="modal-footer">
+	      	<button type="button" class="btn"><a href="index.html">Log Out</button>
+	        <button type="button" class="btn" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+
+	<div class="container-fluid">
+		<header>	
+			<h2 class="text-center">
+				<ul class="list-inline list-unstyled">
+					<h4>shop our closet</h4>
+					<li><strong><a href="#goToWomen">women</a></strong></li>
+					<li><strong><a href="#goToMen">men</a></strong></li>
+					<li><strong><a href="#goToKids">kids</a></strong></li>
+					<li><strong><a href="#goToHome">home</a></strong></li>
+				</ul>
+			</h2>
+		</header><br><br>
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-5">
+				<div class="row">
+					<img src="css/img/women/women-tshirt-dress.jpg" alt="Women Tshirt Dress Black" style="width:200px;" class="img-responsive center-block"></div><br>
+				<div class="row">
+					<div class="col-lg-4"><img src="http://placehold.it/115x115?text=view1" alt="alternate view of product" class="img-responsive img-rounded center-block"></div>
+					<div class="col-lg-4"><img src="http://placehold.it/115x115?text=view2" alt="alternate view of product" class="img-responsive img-rounded center-block"></div>
+					<div class="col-lg-4"><img src="http://placehold.it/115x115?text=view3" alt="alternate view of product" class="img-responsive img-rounded center-block"></div>
+				</div>
+			</div>
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-4">
+				<div class="product-details">
+					<div class="row"><h1>Black Tshirt Dress</h1><h3>$20.00</h3></div><br>
+					<hr class="style13"></hr>
+					<div class="row"><p>this LBD's soft cotton makes you feel covered as well as cute! don't expect the color to fade anytime soon. our dyes are natural, long-lasting, and eco-friendly!</p>
+					</div>
+					<hr class="style13"></hr>
+				</div>
+					<div class="row">
+						<div class="col-lg-6"><br>
+							<div class="btn-group">
+  								<button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="white">available colors <span class="caret"></span>
+  								</button>
+ 								<ul class="dropdown-menu">
+    								<li class="active"><a href="#">black</a></li>
+    								<li><a href="#">blue</a></li>
+    								<li><a href="#">white</a></li>
+    								<li role="separator" class="divider"></li>
+    								<li class="disabled"><a href="#">purple</a></li>
+  								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6"><br>
+							<div class="btn-group">
+  								<button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="white">available sizes <span class="caret"></span>
+  								</button>
+ 								<ul class="dropdown-menu">
+    								<li><a href="#">12</a></li>
+    								<li class="active"><a href="#">10</a></li>
+    								<li><a href="#">8</a></li>
+    								<li role="separator" class="divider"></li>
+    								<li class="disabled"><a href="#">6</a></li>
+    								<li class="disabled"><a href="#">4</a></li>
+    								<li class="disabled"><a href="#">2</a></li>
+    								<li class="disabled"><a href="#">0</a></li>
+  								</ul>
+							</div>
+						</div>
+						</div>
+					</div>
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
+	</div><br><br><br><br>
+	<footer>
+		<p class="text-center">
+			<em>*all images found on this website were provided for free by photographers on unsplash.com or google.com, listed as approved for noncommercial use and modification.</em>
+		</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>shop our closet</title>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="js/shop.js"></script>
+
+	<!-- Animations -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-fixed-top">
+			<ul class="list-unstyled list-inline pull-right">
+				<li><a href="#" data-toggle="modal" data-target="#logOut" data-backdrop="static">my account</a></li>
+				<li><a href="index.html">home</a></li>
+				<li class="active"><a href="shop.html">shop</a></li>
+				<li><a href="checkout.html">cart <span id="cartNo"></span>  </a></li>
+				<li><h4>/fitting</h4></li>
+			</ul>
+	</nav>
+
+	<!-- Main Navigation -->
+
+	<div class="modal" id="logOut" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h2 class="modal-title text-center">Hello, Deepa!</h2>
+	      </div>
+	      <div class="modal-body">
+	        <p>Would you like to log out?</p>
+	      </div>
+	      <div class="modal-footer">
+	      	<button type="button" class="btn"><a href="index.html">Log Out</button>
+	        <button type="button" class="btn" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>    
+	</div>     
+
+	<!-- Account Modal -->
+
+	<header class="container-fluid">
+		<h2 class="text-center">
+			<ul class="list-inline list-unstyled">
+				<h4>shop our closet</h4>
+				<li><strong><a href="#goToWomen">women</a></strong></li>
+				<li><strong><a href="#goToMen">men</a></strong></li>
+				<li><strong><a href="#goToKids">kids</a></strong></li>
+				<li><strong><a href="#goToHome">home</a></strong></li>
+			</ul>
+		</h2><br>
+	</header>
+
+	<!-- Category Navigation -->
+
+	<div class="container" id="top">
+			<div class="row">
+
+				<div class="hidden-xs col-md-2 col-lg-2">
+					<div class="affix" style="margin-top:30px; padding:5px;">
+	  					<h6>
+	  						<ul class="list-unstyled list-inline sbtxt">
+	  							<li><strong><a href="#goToWomen"><h5>Women</h5></a></strong></li><br>
+	  							<li><a href="#goToWomenClothes">Clothes</a></li><br>
+	  							<li><a href="#goToWomenShoes">Shoes</a></li><br><br>
+	  							<li><strong><a href="#goToMen"><h5>Men</h5></a></strong></li><br>
+	  							<li><a href="#goToMenClothes">Clothes</a></li><br>
+	  							<li><a href="#goToMenShoes">Shoes</a></li><br><br>
+	  							<li><strong><a href="#goToKids"><h5>Kids</h5></a></strong></li><br>
+	  							<li><a href="#goToKidsClothes">Clothes</a></li><br>
+	  							<li><a href="#goToKidsShoes">Shoes</a></li><br><br>
+	  							<li><strong><a href="#goToHome"><h5>Home</h5></a></strong></li><br>
+	  							<li><a href="#goToHomeOffice">Office</a></li><br>
+	  							<li><a href="#goToHomeBedroom">Bedroom</a></li>
+	  						</ul>
+	  					</h6>
+	  				</div>
+				</div>
+
+				<!-- Sidebar Navigation -->
+
+				<div class="col-lg-10"><br><br>
+
+					<div class="row">
+						<div class="col-lg-8" style="padding:5px;" id="deck">
+							<section class="text-center center-block">
+								<img src="css/img/katie-treadway-women-laughing.jpg" alt="women's section intro image/illustration" style="height:400px;" class="img-responsive center-block">
+							</section>
+						</div>
+						
+						<!-- section banner image -->
+
+						<div class="col-lg-2" style="padding:5px;" id="deck">
+							<section class="card2 center-block" id="goToWomen">
+								<h1 class="text-center" id="white">ladies!</h1>
+								<p class="text-center" id="white">Enjoy our favorite looks for women.</p>
+							</section>
+						</div>
+
+						<!-- section info -->
+
+					</div>
+					<hr class="style12 center-block">
+					<div class="row">
+
+						<div class="col-lg-1"></div>
+
+						<div class="col-lg-5 center-block" id="deck">
+							<div id="goToWomenClothes">
+								<a href="product-page.html">
+								<img src="css/img/women/women-tshirt-dress.jpg" alt="black tshirt dress" style="height:550px;" class="img-responsive center-block" data-toggle="tooltip" data-placement="left" title="click here to see product page"></a>
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>Tshirt Dress</li><br>
+										<li>$20.00</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<!-- product, price, and button -->
+
+						<div class="col-lg-5 center-block" id="deck">
+							<div>
+								
+								<img src="css/img/women/women-tshirt-vneck.jpg" alt="deep vneck tshirt" style="height:550px;" class="img-responsive center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>Vneck Tshirt</li><br>
+										<li>$6.95</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5" id="deck">
+							<div>
+								 
+								 <img src="css/img/women/women-jeans-ripped.jpg" alt="women's ripped jeans" style="height:550px;" class="img-responsive center-block">
+								 <div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>Ripped Jeans</li><br>
+										<li>$23.99</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5" id="deck">
+							<div>
+								
+								<img src="css/img/women/women-dress-off-shoulder.jpg" alt="women's off shoulder dress" style="height:550px;" class="img-responsive center'block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>Off Shoulder Dress</li><br>
+										<li>$36.99</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5">
+							<div id="goToWomenShoes">
+								 <img src="css/img/women/shoes-bootie-black.jpg" alt="black booties" style="height:550px;" class="img-responsive center-block">
+								 <div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>Bootie</li><br>
+										<li>$22.50</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div>
+								<img src="css/img/women/shoes-heels-red.jpg" alt="red high heel shoes" style="height:550px;" class="img-responsive center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>Red Pumps</li><br>
+										<li>$27.99</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<hr class="style12 center-block">
+					<div class="row">
+						<div class="col-lg-8">
+							<section class="text-center center-block">
+								<img src="css/img/men/alvin-mahmudov.jpg" alt="Two Men in Suits" style="height:400px;" class="img-responsive img-rounded center-block" style="padding:20px;">
+							</section>							
+						</div>					
+						<div class="col-lg-2" id="deck">
+							<section class="card2 center-block" id="goToMen">
+								<h1 class="text-center">guys!</h1>
+								<p class="text-center">this is made for you.</p>
+							</section>							
+						</div>	
+					</div>				
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5">
+							<div id="goToMenClothes">
+								<img src="http://placehold.it/300x300?text=forMen" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div>
+								<img src="http://placehold.it/300x300?text=forMen" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5">
+							<div>
+								<img src="http://placehold.it/300x300?text=forMen" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div>
+								<img src="http://placehold.it/300x300?text=forMen" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5">
+							<div id="goToMenShoes">
+								 <img src="http://placehold.it/300x300?text=forMen" alt="Product Image" class="img-responsive img-rounded center-block">
+								 <div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div>
+								<img src="http://placehold.it/300x300?text=forMen" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<hr class="style12 center-block">
+					<div class="row">
+						<div class="col-lg-8" id="deck">
+							<section class="text-center center-block" id="imgbg">
+								<img src="http://placehold.it/400x400" alt="Section Image" class="img-responsive img-rounded center-block" style="padding:20px;">
+							</section>							
+						</div>					
+						<div class="col-lg-2" id="deck">
+							<section class="card2 center-block" id="goToKids">
+								<h1 class="text-center">kids!</h1>
+								<p class="text-center">like what you see? tell your parents!</p>
+							</section>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5" id="deck">
+							<div class="card" id="goToKidsClothes">
+								<img src="http://placehold.it/300x300?text=forKids" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forKids" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forKids" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forKids" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5" id="deck">
+							<div class="card" id="goToKidsShoes">
+								 <img src="http://placehold.it/300x300?text=forKids" alt="Product Image" class="img-responsive img-rounded center-block">
+								 <div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forKids" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<hr class="style12">
+					<div class="row">
+						<div class="col-lg-8" id="deck">
+							<section class="text-center center-block" id="imgbg">
+								<img src="http://placehold.it/400x400" alt="Section Image" class="img-responsive img-rounded center-block" style="padding:20px;">
+							</section>							
+						</div>					
+						<div class="col-lg-2" id="deck">
+							<section class="card2 center-block" id="goToHome">
+								<h1 class="text-center">home!</h1>
+								<p class="text-center">how it looks can change how it feels. rest and work peacefully.</p>
+							</section>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5" id="deck">
+							<div class="card" id="goToHomeOffice">
+								<img src="http://placehold.it/300x300?text=forHome" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forHome" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forHome" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forHome" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>	
+					<div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-5" id="deck">
+							<div class="card" id="goToHomeBedroom">
+								 <img src="http://placehold.it/300x300?text=forHome" alt="Product Image" class="img-responsive img-rounded center-block">
+								 <div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5" id="deck">
+							<div class="card">
+								<img src="http://placehold.it/300x300?text=forHome" alt="Product Image" class="img-responsive img-rounded center-block">
+								<div class="text-center center-block">
+									<ul class="list-unstyled list-inline">
+										<li id="c1"></li>
+										<li id="c2"></li>
+										<li id="c3"></li>
+										<li id="c4"></li>
+										<li id="c5"></li><br>
+										<p><li>product name</li><br>
+										<li>product price</li><br></p>
+										<button type="button" id="add">
+											<a href="#" id="white">
+												add to cart
+											</a>
+										</button>	
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>					
+			</div>
+		</div>
+	</div>
+		<br><br><br><br>
+	<footer>
+		<p class="text-center">
+			<em>*all images found on this website were provided for free by photographers on unsplash.com or google.com, listed as approved for noncommercial use and modification.</em>
+		</p>
+	</footer>
+</body>
+</html>
